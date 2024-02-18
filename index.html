@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Page</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
+
+
+    <style>
+        @media (max-width: 768px) {
+            .shadow-overlay {
+                padding: 20px;
+            }
+
+            .description {
+                color: black;
+            }
+
+            .apply {
+                color: black;
+                background-color: #13c636;
+
+            }
+
+            .apply:hover {
+                background-color: #10df3a;
+            }
+
+        }
+
+        @media (max-width: 768px) {
+            .About {
+                margin-top: 350px;
+            }
+
+
+            @media (max-width: 576px) {
+                .About img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+
+        .card {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.2s ease-in-out;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #FFF;
+        }
+
+        .card:hover {
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        .card>.card-inner {
+            padding: 10px;
+        }
+
+        .card .header h2,
+        h3 {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .card .header {
+            margin-bottom: 5px;
+        }
+
+        .image {
+            height: 200px;
+            /* Set the desired fixed height for the image container */
+            overflow: hidden;
+            /* Ensure the image doesn't overflow its container */
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class=" container-fluid  text-center text-light bg-secondary p-2  ">
+
+        هي منصة استثمارية متعددة الأصول. قد ترتفع أو تنخفض قيمة استثماراتك. رأس مالك في خطرeToro
+    </div>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                            class="btn active rounded-5 fs-3"
+                            style="border: 1px solid #13c636; background-color: #13c636; color: black;"
+                            onmouseover="this.style.backgroundColor='#9AFF99';"
+                            onmouseout="this.style.backgroundColor='#13c636';" role="button" aria-pressed="true">ابدأ
+                            التداول</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link active text-dark fs-5" aria-current="page"
+                            href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">الدخول</a>
+                    </li>
+
+                </ul>
+            </div>
+            <a class="navbar-brand"
+                href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">
+                <img src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/general_images/logos/etoro-logo-new-green.svg"
+                    alt="" width="80" height="80">
+            </a>
+        </div>
+    </nav>
+
+
+
+    <!-- carosel section  -->
+
+    <div class="container-fluid carovideo" style="background-color: rgb(2, 2, 51); ">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="position-relative">
+                    <div class="shadow-overlay text-center"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(7, 2, 54, 0.589); color: #f1f1f1; z-index: 1;">
+                        <a class="brand d-block mt-5"
+                            href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">
+                            <img src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/general_images/logos/etoro-logo-new-green.svg"
+                                alt="" width="200" height="50">
+                        </a>
+                        <a class="stars d-block mt-5"
+                            href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">
+                            <img src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/uae/v2/icon-star.svg"
+                                alt="" width="200" height="50">
+                        </a>
+                        <h1 class="fw-bold display-1 mt-3 text-center " dir="rtl ">تداوُل بمستوىً عالميّ</h1>
+                        <div class="container text-center description" dir="rtl">
+                            <h4 class="mt-5 display-6 lh-base">انضم إلى 30 مليون مستخدم من أكثر من 100 دولة واستمتع
+                                بالمزيد
+                                من خيارات
+                                التداول وأدوات التداول المتقدمة والمحتوى التعليمي</h4>
+                            <div>
+                                <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                                    class="btn btn-outline-light rounded-5 p-3 mt-5 apply" data-toggle="modal"
+                                    data-target="#exampleModal" style="z-index: 2;">
+                                    انضم إلى 30 مليون مستخدم
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <video autoplay="" preload="auto" loop="" muted="" class="bgvid"
+                        style="width:100%; height:100%; z-index: 0;">
+                        <source type="video/mp4" class="laptop-off"
+                            src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/uae/v3/bg-video.mp4">
+                        <source type="video/mp4" class="laptop-on"
+                            src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/uae/v3/bg-video-laptop1.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+
+    <!--  About section-->
+
+
+    <div class="container-fluid p-5 About" style="background-color: rgb(2, 2, 51);">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                <img src="images\sec1-image1-ar-ae.png" alt="" class="img-fluid">
+            </div>
+
+            <!-- description -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <a class="d-flex justify-content-end"
+                    href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">
+                    <img src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/uae/v3/logo-club1.svg"
+                        alt="" width="200" height="200">
+                </a>
+                <h1 class="d-flex justify-content-start text-light fw-bold" dir="rtl">نادي المستثمرين الأفضل في المدينة
+                </h1>
+                <p class="d-flex justify-content-start text-light fw-bold fs-5" dir="rtl">استمتع بتجربة تداول حصرية مع
+                    مجموعة متنوعة من الخدمات والأدوات: مساعدة شخصية، رسوم أقل، فائدة على الرصيد، حلول التقارير الضريبية،
+                    أحداث VIP، والمزيد.</p>
+                <div class="d-flex justify-content-end mt-5 p-2">
+                    <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                        class="btn active rounded-5 fs-3  "
+                        style="border: 1px solid #13c636; background-color: #13c636; color: black;"
+                        onmouseover="this.style.backgroundColor='#9AFF99';"
+                        onmouseout="this.style.backgroundColor='#13c636';" role="button" aria-pressed="true">
+                        etoro انضم إلى 
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- fetures -->
+
+    <div class="container-fluid p-5" style="background-color: rgb(255, 255, 255); ">
+        <div class="row p-5">
+
+            <!-- description -->
+            <div class="col-md-6 mt-5 ">
+
+                <h1 class="d-flex justify-content-start text-light fw-bold text-dark" dir="rtl">كن دائماً في المقدمة
+                </h1>
+                <p class="d-flex justify-content-start text-secondary fw-bold fs-4 mt-5  " dir="rtl">
+                    مع مجتمع تداول يضم اكثر من 30 مليون مستخدم، يمكنك حقًا الشعور بتغييرات المعنويات. تابع التحركات
+                    الحية للمتداولين الآخرين وناقش الاستراتيجيات على موجزات أخبار الأصول المخصصة
+                </p>
+                <div class="d-flex justify-content-end mt-4 ">
+                    <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                        class="btn active rounded-5 fs-3 "
+                        style="border: 1px solid #13c636; background-color: #13c636; color: black; "
+                        onmouseover="this.style.backgroundColor='#9AFF99';"
+                        onmouseout="this.style.backgroundColor='#13c636';" role="button" aria-pressed="true">ابدأ
+                        التداول</a>
+
+                </div>
+
+            </div>
+
+            <!-- iphone screens -->
+            <div class="col-md-6  d-flex justify-content-center ">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images\iphone1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\iphone2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images\iphone3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container-fluid p-5" style="background-color: rgb(2, 2, 51); ">
+        <div class="row">
+            <h1 class="d-flex justify-content-center text-light fw-bold "> كن مستثمرًا أكثر ذكاءً</h1>
+            <p class="d-flex justify-content-center text-light fw-bold fs-4 mt-4 text-center  " dir="rtl">
+                استمتع بأفضل تعليم لا يمكن للمال شراؤه. استكشف أكثر من 1500 دورة تعليمية مجانية، وندوات الإنترنت، وحلقات
+                البودكاست، والمقالات من خلال eToro Academy. </p>
+        </div>
+
+        <div class="row mt-3  ">
+            <div class="col">
+                <div class=" card h-70 bg-secondary">
+                    <img src="images\card1-ar-ae.png" class="d-block w-100 h-50" alt="...">
+                </div>
+            </div>
+            <div class="col ">
+                <div class=" card h-70 bg-secondary">
+                    <img src="images\card2-ar-ae.png" class="d-block w-100 h-50" alt="...">
+                </div>
+            </div>
+            <div class="col ">
+                <div class=" card h-70 bg-secondary">
+                    <img src="images\card3-ar-ae.png" class="d-block w-100 h-50" alt="...">
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center  mt-4 p-4">
+            <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                class="btn active rounded-5 fs-3 "
+                style="border: 1px solid #13c636; background-color: #13c636; color: black;"
+                onmouseover="this.style.backgroundColor='#9AFF99';" onmouseout="this.style.backgroundColor='#13c636';"
+                role="button" aria-pressed="true">اعرف المزيد</a>
+
+        </div>
+
+
+    </div>
+
+    <!-- additional features -->
+
+    <div class="container-fluid p-5 " style="background-color: rgb(240, 240, 248); ">
+        <h1 class="d-flex justify-content-center  fw-bold  mt-5" style="color:rgb(1, 1, 78)" dir="rtl"> أدوات احترافية
+            للمتداولين
+        </h1>
+
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="card" >
+                    <div class="image ">
+                        <img src="https://img.freepik.com/free-photo/billie-dollar-money-background_1150-749.jpg?size=626&ext=jpg&ga=GA1.1.256281452.1700069502&semt=sph"
+                            class="card-img-top" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">تنبيهات السعر</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="image ">
+                        <img src="https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg?size=626&ext=jpg&uid=R122299971&ga=GA1.1.256281452.1700069502&semt=sph"
+                            class="card-img-top" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">مخططات التداول</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="image ">
+                        <img
+                            src="https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608844.jpg?size=626&ext=jpg&uid=R122299971&ga=GA1.1.256281452.1700069502&semt=ais" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">وقف خسارة التداول</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="image ">
+                        <img
+                            src="https://t4.ftcdn.net/jpg/07/13/17/15/240_F_713171533_mtg7Z1hTnWxnxWQ63IkD6ZSpRGkyXkeK.jpg" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">التداول بنقرة واحدة</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="image">
+                        <img
+                            src="https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608814.jpg?size=626&ext=jpg&uid=R122299971&ga=GA1.1.256281452.1700069502&semt=sph" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">قم بالشراء والبيع باستخدام
+                                الرافعة</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="image ">
+                        <img
+                            src="https://img.freepik.com/free-photo/round-clock-increasing-coins-wooden-desk-against-black-backdrop_23-2147943617.jpg?size=626&ext=jpg&uid=R122299971&ga=GA1.1.256281452.1700069502&semt=ais" />
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2 class="text-center fw-bold" style="color:rgb(1, 1, 78)">تنفيذ الصفقات في الوقت الفعلي
+                            </h2>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center  mt-4 p-4">
+            <a href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F"
+                class="btn active rounded-5 fs-3"
+                style="border: 1px solid #13c636; background-color: #13c636; color: black;"
+                onmouseover="this.style.backgroundColor='#9AFF99';" onmouseout="this.style.backgroundColor='#13c636';"
+                role="button" aria-pressed="true">ابدأ التداول</a>
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer class="container-fluid p-5" style="background-color: rgb(1, 1, 32);">
+
+        <div class="row ">
+            <a class=" col d-flex justify-content-end"
+                href="https://go.etoro.com/ar/WorldClassTrading?utm_medium=Affiliate&utm_source=110548&utm_content=21133&utm_serial=&utm_campaign=&utm_term=https:%2F%2Fkhamsat.com%2F">
+                <img src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/general_images/etoro-logo-white.svg"
+                    alt="" width="100" height="100">
+            </a>
+        </div>
+
+        <div class="row">
+            <p class="d-flex justify-content-end text-light  mt-4   " dir="rtl">
+                eToro (Europe) Ltd.، وهي شركة خدمات مالية مصرح بها مرخصة من هيئة الأوراق المالية القبرصية (CySEC) بترخيص
+                رقم 109/10. مسجل في قبرص تحت الشركة رقم HE 200585. المكتب الرئيسي: شارع بروفيتي إيليا 4، مركز كانيكا
+                للأعمال، الطابق السابع، جيرماسوجيا، 4046، ليماسول، قبرص.
+
+                eToro (UK) Ltd، هي شركة خدمات مالية مسجلة ومرخصة من هيئة السلوك المالي (FCA) بترخيص رقم FRN 583263.
+                المكتب المسجل: الطابق 24، ون كندا سكوير، كناري وارف، لندن E14 5AB.
+
+                شركة eToro AUS Capital Limited هي شركة مُرخصة من قبل هيئة الأوراق المالية والاستثمارات الأسترالية (ASIC)
+                لتقديم الخدمات المالية بموجب ترخيص الخدمات المالية الأسترالية 491139
+                المكتب المسجل: الطابق الثالث، شارع كاستليرغ 60، سيدني نيو ساوث ويلز 2000، أستراليا.
+
+                تم ترخيص .eToro (Seychelles) Ltd من قبل هيئة الخدمات المالية في سيشيل («FSAS») لتقديم خدمات الوساطة
+                بموجب ترخيص قانون الأوراق المالية لعام 2007 #SD076 المكتب المسجل: أجنحة إيتورو، الطابق الثاني S45، مبنى
+                إسبايس، فيكتوريا، سيشيل، مرخص للتعامل في الأوراق المالية سواء كمعتمد أو كوكيل رئيسي.
+
+                eToro (ME) Limited، هي شركة مرخّصة وخاضعة للرقابة من قبل هيئة تنظيم الخدمات المالية ("FSRA") في سوق أبو
+                ظبي العالمي (“ADGM”) ككيان مرخص له بمزاولة الأنشطة المنظمة التالية: (أ) التعامل في الاستثمارات بصفة أصيل
+                (متطابق)، (ب) ترتيب الصفقات في الاستثمارات، (ج) توفير الحفظ، (د) ترتيب الحفظ و (هـ) إدارة الأصول (بموجب
+                إذن الخدمات المالية رقم 220073) وبموجب لوائح الخدمات المالية والسوق لعام 2015 ("FSMR") . يقع مكتبها
+                المسجل ومقر عملها الرئيسي في المكتبين 207 و208، الطابق الخامس عشر، برج السراب، ميدان سوق أبوظبي العالمي،
+                جزيرة المارية، أبوظبي، الإمارات العربية المتحدة ("UAE").
+
+                الأداء السابق ليس مؤشرًا على النتائج المستقبلية.
+                بيان المخاطر العامة | الشروط والأحكام
+
+                هذه الرسالة مخصّصة للأغراض الإخبارية والتعليمية فقط، ولا ينبغي اعتبارها نصيحة استثمارية أو توصية شخصية
+                أو عرضاً أو طلباً لشراء أو بيع أي أدوات مالية. يجب عليك طلب المشورة من مستشار مالي مستقل ومرخص، والتأكد
+                من أنّ لديك القدرة على تحمل المخاطر، وتمتلك الخبرة والمعرفة اللازمة قبل اتخاذ قرار التداول. تم إعداد هذه
+                المادة دون مراعاة أهداف الاستثمار أو الوضع المالي لأي مستلم معين، كما لم يتم إعدادها وفقاً للمتطلبات
+                القانونية والتنظيمية للترويج للأبحاث المستقلة. لا ينبغي اعتبار أي إشارات إلى الأداء السابق أو المستقبلي
+                لأي أداة مالية أو مؤشر أو منتج استثماري مؤشراً موثوقاً على النتائج المستقبلية.
+
+                حقوق الطبع والنشر © 2006-2023 محفوظة لشركة eToro - شبكتك للاستثمار الاجتماعي، جميع الحقوق محفوظة. </p>
+
+        </div>
+
+
+
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Slick Slider JavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+
+    </script>
+
+</body>
+
+</html>
